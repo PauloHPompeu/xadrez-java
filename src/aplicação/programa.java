@@ -1,6 +1,10 @@
 package aplicação;
 
-public class programa {
+import tabuleiro.Posicao;
 
-    //testando
+public class Programa {
+    
+    public void executar(){
+        Posicao pos = new Posicao(3, 5);
+    }
 }
